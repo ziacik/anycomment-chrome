@@ -178,5 +178,5 @@ chrome.tabs.query({
 	active : true
 }, function(tabs) {
 	var tab = tabs[0];
-	document.getElementById('frame').src = 'http://new.eeechat.net/?room=' + md5(tab.url);
+	document.getElementById('frame').src = 'http://new.eeechat.net/?appId=5635607e495307432e0ed775&room=' + md5(tab.url);
 })
